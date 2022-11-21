@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CF84FBE9-9B5C-4FE5-85F6-4A27CE4EF177}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{CF84FBE9-9B5C-4FE5-85F6-4A27CE4EF177}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play9981" ID="{91844A88-99B1-477A-A766-CF1400EF33AE}">
+					<ChildrenList>
+						<Action Name="" ID="{0D6CD95B-536C-4FA3-AED6-FFE44AF6DF6D}" ShortID="56382841">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="九九八十一伴奏" ID="{277186DF-D7A6-4869-B954-0A7EF4ADE905}" WorkUnitID="{95750D1B-220A-439D-BBF6-84C5C9DFF06C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop9981" ID="{316086C3-C5B2-42F9-A085-8DC2791EC525}">
+					<ChildrenList>
+						<Action Name="" ID="{50C507F7-1A2E-4891-9095-8415564B8EF2}" ShortID="1023845730">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="九九八十一伴奏" ID="{277186DF-D7A6-4869-B954-0A7EF4ADE905}" WorkUnitID="{95750D1B-220A-439D-BBF6-84C5C9DFF06C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

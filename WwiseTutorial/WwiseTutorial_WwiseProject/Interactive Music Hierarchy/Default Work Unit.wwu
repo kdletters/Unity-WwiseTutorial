@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95750D1B-220A-439D-BBF6-84C5C9DFF06C}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{95750D1B-220A-439D-BBF6-84C5C9DFF06C}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="New Music Switch Container" ID="{0FAA8B73-ECA5-4096-9212-BED3285454DF}" ShortID="112505728">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{51A5B7C4-35A0-4879-A112-A3D5F25D6E5D}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{75A68E0F-2D0B-489C-AA76-82550D46EF34}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+				</MusicSwitchContainer>
+				<MusicPlaylistContainer Name="New Music Playlist Container" ID="{CF201E50-F962-4C19-8A2B-64E101772FED}" ShortID="1002568258">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="九九八十一伴奏" ID="{277186DF-D7A6-4869-B954-0A7EF4ADE905}" ShortID="398249138">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="286040.816326531"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="九九八十一伴奏" ID="{CCA74FFE-814E-4821-A341-B17BE51180FF}" ShortID="743071678">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="九九八十一伴奏" ID="{2D77C7FB-087C-4618-B71B-9E0696902814}">
+											<Language>SFX</Language>
+											<AudioFile>九九八十一伴奏.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1038490483"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0B232783-6E5B-4005-90C2-70411A588883}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D62D53FA-63E1-4504-A3A2-665A3D6D5F34}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="九九八十一伴奏" ID="{DC951B08-CA95-4CC4-A837-996618BC957C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="286040.816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="九九八十一伴奏" ID="{2D77C7FB-087C-4618-B71B-9E0696902814}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{9D799CE9-EC97-42EA-9806-7100FF9975F8}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{16583196-8791-466F-8B63-DFC6ADBEAE6E}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="286040.816326531"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="九九八十一伴奏_01" ID="{A9D28349-C8FD-4B81-A6A1-6E56C32F75D9}" ShortID="732533328">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="286040.816326531"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="九九八十一伴奏" ID="{4F735349-E0F5-46E4-A4B8-8DE7655EBC04}" ShortID="567659964">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="九九八十一伴奏" ID="{3E4CAFF2-DFBE-49D4-85A6-C23161236981}">
+											<Language>SFX</Language>
+											<AudioFile>九九八十一伴奏.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1038490483"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A97766AA-1E24-470A-941B-C41E82893A4D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{AC4CF6CB-0408-448A-BFEC-92F1AC81881F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="九九八十一伴奏" ID="{3DB5CDF3-9616-4DE0-A274-C5CF741FEC1F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="286040.816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="九九八十一伴奏" ID="{3E4CAFF2-DFBE-49D4-85A6-C23161236981}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{7F1C7EB9-E2AA-42CD-AA77-802AF4987A32}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{B5404046-7E6D-4471-A797-5172D784E909}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="286040.816326531"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{DA6B7FEE-1819-4D3E-B099-6C692DE6F596}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{E75986C6-79A4-4497-A678-3B2B56ADFC13}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{6365D695-174F-4F94-B6B8-DB0AF20297D0}" ShortID="970726468"/>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

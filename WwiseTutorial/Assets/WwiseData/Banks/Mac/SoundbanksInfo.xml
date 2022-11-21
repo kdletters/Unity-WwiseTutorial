@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>E:\Desktop\WwiseTutorial\WwiseTutorial\WwiseTutorial_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Desktop\WwiseTutorial\WwiseTutorial\WwiseTutorial_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Desktop\WwiseTutorial\WwiseTutorial\WwiseTutorial_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Desktop\WwiseTutorial\WwiseTutorial\WwiseTutorial_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="3083252732">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1830028500" Name="Play9981" ObjectPath="\Events\Default Work Unit\Play9981" DurationType="OneShot" DurationMin="286.040802" DurationMax="286.040802">
+					<IncludedMemoryFiles>
+						<File Id="1038490483" Language="SFX">
+							<ShortName>九九八十一伴奏.wav</ShortName>
+							<Path>SFX\九九八十一伴奏_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2354979554" Name="Stop9981" ObjectPath="\Events\Default Work Unit\Stop9981" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

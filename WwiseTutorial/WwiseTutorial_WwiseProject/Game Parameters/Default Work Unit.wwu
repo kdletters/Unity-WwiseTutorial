@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16775510-102E-49A9-AB0A-B80453D09022}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{16775510-102E-49A9-AB0A-B80453D09022}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="aaa" ID="{1308D994-2CB6-436A-A5A8-49AA587DB4D7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

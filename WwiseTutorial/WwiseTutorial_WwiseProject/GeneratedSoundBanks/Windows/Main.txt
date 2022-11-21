@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1830028500	Play9981			\Default Work Unit\Play9981	
+	2354979554	Stop9981			\Default Work Unit\Stop9981	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1038490483	九九八十一伴奏	E:\Desktop\WwiseTutorial\WwiseTutorial\WwiseTutorial_WwiseProject\.cache\Windows\SFX\九九八十一伴奏_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\九九八十一伴奏\九九八十一伴奏		50457664
+

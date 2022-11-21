@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB048DF1-0F7B-42DD-97D9-78ECCB0BC6D2}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{AB048DF1-0F7B-42DD-97D9-78ECCB0BC6D2}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="New Random Container" ID="{7C03C83B-57D2-4B11-8D1C-9E9564962F13}" ShortID="688917644">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="9981" ID="{6EE4DAB5-4FD1-4366-96AA-4F1DA421060E}" ShortID="1057588892">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="九九八十一伴奏" ID="{C13E221A-129C-4730-A950-C5FBB7D3EFE5}">
+									<Language>SFX</Language>
+									<AudioFile>九九八十一伴奏.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="640720557"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="九九八十一伴奏" ID="{C13E221A-129C-4730-A950-C5FBB7D3EFE5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="9981_01" ID="{753F7BE3-7CCF-4816-863E-1E78473FD3F4}" ShortID="653403099">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="九九八十一伴奏" ID="{000C6A8B-C34D-4FA9-9127-20BDF786B883}">
+									<Language>SFX</Language>
+									<AudioFile>九九八十一伴奏.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="640720557"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="九九八十一伴奏" ID="{000C6A8B-C34D-4FA9-9127-20BDF786B883}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="New Sequence Container" ID="{F3A54DFD-9AFE-44DB-AE05-9E6930FD902F}" ShortID="832218968">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="9981_01" ID="{19975ED0-A6F1-4E86-BFE6-00109944AF0C}" ShortID="798902419">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="九九八十一伴奏" ID="{D5F5DFB0-8103-4BCB-A5ED-29156F84FCA4}">
+									<Language>SFX</Language>
+									<AudioFile>九九八十一伴奏.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="640720557"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="九九八十一伴奏" ID="{D5F5DFB0-8103-4BCB-A5ED-29156F84FCA4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="9981" ID="{C19AD7AF-0635-40AC-812C-8C85AEA7080A}" ShortID="134044168">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{78D47A31-1625-49F6-9E95-EAEC4985AE9E}" ShortID="992735790">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="aaa" ID="{1308D994-2CB6-436A-A5A8-49AA587DB4D7}" WorkUnitID="{16775510-102E-49A9-AB0A-B80453D09022}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5AF2E349-D131-4A50-9ECD-2717135D777A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-600</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E610BE9D-6818-4CAD-89D8-B15A24D11CD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F108EBD-DA9F-4ABE-821A-2E214CC43279}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="九九八十一伴奏" ID="{81CE843C-A7EA-437C-BE25-B7EA766D7F40}">
+									<Language>SFX</Language>
+									<AudioFile>九九八十一伴奏.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="640720557"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="九九八十一伴奏" ID="{81CE843C-A7EA-437C-BE25-B7EA766D7F40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<Playlist>
+						<ItemRef Name="9981" ID="{C19AD7AF-0635-40AC-812C-8C85AEA7080A}"/>
+						<ItemRef Name="9981_01" ID="{19975ED0-A6F1-4E86-BFE6-00109944AF0C}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
